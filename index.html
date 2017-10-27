@@ -6,15 +6,27 @@
 	 crossorigin="anonymous">
 
 	<link rel="stylesheet" href="game.css">
-	
-
 </head>
-<img src="placeholder width=200px" alt="target">
-<body>
 
+<body>
+	<header>
+		<span>Health:<span id="health">--</span>
+		Name:<span id="name">--</span>
+		Hits:<span id="hits">--</span>
+	</span>
+
+	</header>
+
+
+	<div>
+		<img src="assets/target.jpg" class="target-image  " alt="target">
+	</div>
 	<script src="game.js"></script>
 </body>
 <footer>
-	<div class="button">Slap</div>
+	<button onclick='rock()'>rock</button>
+	<button onclick='lightening()'>lightening</button>
+	<button onclick='lava()'>lava</button>
 </footer>
+
 </html>
