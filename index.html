@@ -8,18 +8,17 @@
 	<link rel="stylesheet" href="game.css">
 </head>
 
-<body>
+<body background>
 	<header>
-		<span>Health:<span id="health">--</span>
-		Name:<span id="name">--</span>
-		Hits:<span id="hits">--</span>
-	</span>
+		<span >Health:<span id="health">--</span>
+			Hits:<span id="hits">--</span>
+		</span>
 
 	</header>
 
 
-	<div>
-		<img src="assets/target.jpg" class="target-image  " alt="target">
+	<div class="plane-pic">
+		<img src="assets/plane.jpg"  class="target-image" alt="target">
 	</div>
 	<script src="game.js"></script>
 </body>
@@ -27,6 +26,10 @@
 	<button onclick='rock()'>rock</button>
 	<button onclick='lightening()'>lightening</button>
 	<button onclick='lava()'>lava</button>
+	<button onclick='dodgeRock()'>dodge</button>
+	<button onclick='shieldPlane()'>shield</button>
+
+
 </footer>
 
 </html>
