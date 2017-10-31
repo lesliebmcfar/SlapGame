@@ -47,6 +47,12 @@ function shieldPlane(){
     update()
 }
 
+function jump(){
+    health += 5
+    hits -= 1
+    update()
+}
+
 function update() {
     document.getElementById("health").innerText = health;
     document.getElementById("hits").innerText = hits;
