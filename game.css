@@ -17,5 +17,11 @@ header  {
 }
 .plane-pic{
     margin: 20px;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
 }
